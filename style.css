@@ -1,0 +1,296 @@
+@import url("https://fonts.google.com/specimen/Bruno+Ace+SC?query=Bruno+Ace");
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing:border-box;
+    /* outline:solid 1px; */
+   }
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color:inherit;
+}
+
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+    /* color: #D1D1D1; */
+    color:#000;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header{
+    background: #000;
+    color: #D1D1D1;
+}
+
+.footer{
+    background: #000;
+    color: #D1D1D1;
+}
+
+.footer-desc{
+    width:365;
+    padding: 40px 312px;
+    text-align: center;
+}
+/* layout */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+/* components */
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+    margin-top: 76px;
+}
+
+.btn-light{
+    background: white;
+    color: #000;
+
+}
+
+.btn-dark{
+    background: #000;
+    color: white;
+
+}
+
+/* pages */
+.banner{
+    background: #000;
+    color: white;
+}
+
+.intro{
+    background-image: url("img/background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 160px 0;
+}
+
+.intro-desc{
+    width: 526px;
+}
+
+
+.intro-pic{
+    width:746px;
+}
+.about{
+    padding:160px 0;
+}
+
+.about-list{
+    width: 636px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 24px; */
+}
+
+.about-list li{
+    padding:16px;
+    width:48%;
+    border:1px solid rgba(227, 227, 227, 1);
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+    gap: 24px;
+}
+.about-desc{
+    width:526px;
+}
+
+.contact{
+
+    background: linear-gradient(rgba(5, 0, 20, 1), rgba(1, 2, 30, 0.89));
+    padding: 96px 0;
+}
+
+.contactme{
+   justify-content: space-between;
+}
+
+
+
+.social-link{
+    border-radius: 40px;
+}
+
+.social-link-desc{
+    width: 526px;
+}
+
+.social-link:hover{
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    transition: 1s;
+}
+
+.project{
+    padding: 160px 0;
+}
+
+.project-title{
+    width:746px;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+
+.project-content{
+    width: 856px;
+}
+
+/* utils */
+.container{
+    width:1296px;
+    margin: 0 auto;
+    
+}
+
+.h1{
+    font-size: 128px;
+}
+
+.h2{
+    font-size: 64px;
+  
+
+}
+.fs-1{
+    font-size: 32px;
+   
+}
+.fs-2{
+    font-size: 24px;
+}
+.fs-3{
+    font-size: 20px;
+}
+
+.c-fff{
+    color: #fff;
+}
+
+.text-primary{
+    color: #00ffa3;
+}
+
+.d-flex{
+    display: flex;
+    align-items: start;
+}
+
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+    
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.align-items-start{
+    align-items: start;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.mr-6{
+    margin-right: 24px;
+}
+
+.mb-6{
+    margin-bottom: 24px;
+}
+
+.mb-7{
+    margin-bottom: 28px;
+}
+
+.mb-8{
+    margin-bottom: 32px;
+}
+
+.mb-9{
+    margin-bottom: 36px;
+}
+
+
+
+.banner-title-strong{
+    text-align: right;
+    /* span為行內元素 */
+    display: block;
+}
+
+.ml-6{
+    margin-left: 24px;
+}
+
+.ml-134{
+    margin-left: 134px;
+}
+
+
